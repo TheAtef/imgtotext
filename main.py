@@ -78,4 +78,4 @@ while True:
     try:
         asyncio.run(bot.infinity_polling())
     except:
-        time.sleep(10)
+        asyncio.sleep(10)
